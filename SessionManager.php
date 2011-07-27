@@ -59,6 +59,7 @@ class SessionManager extends CComponent
 				array_push($return_sessions,$active_session);
 			}
 		}
+		return $return_sessions;
 	}
 	/**
 	 * getSessionUsername 
