@@ -1,0 +1,10 @@
+To use, simply define a scopeMembersOnline() scope method for your User model and plug the component into your config as such:
+
+'components' =>
+	...
+	'SessionManager' => array(
+		'class' => 'path.to.the.component',
+	),
+	...
+),
+
